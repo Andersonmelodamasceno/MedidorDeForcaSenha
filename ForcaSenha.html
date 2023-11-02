@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validador de Força</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+<body>
+    <h1 id="h1">Segurança de senha</h1>
+    <label for="password">Senha:</label>
+    <input type="password" id="password" name="password">
+    <br>
+    <br>
+    
+    <label for="password">Força:</label>
+    <input type="range" id="vol" name="vol" min="0" max="3" value="0">
+    
+    
+        <div id="password-strength"></div>
+    
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scrpt.js"></script>
+</body>
+</html>
+
